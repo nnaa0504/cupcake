@@ -1,4 +1,4 @@
 # cupcake
 
 [BuildGuide](DOC/BuildGuide.md)  
-[Firmware](https://)  
+[Firmware](DOC/Firmware.md)  
