@@ -1,3 +1,3 @@
 # Firmware
 
-[Firmware](Firmware/)
+[Firmware](Firmware/readme.md)
