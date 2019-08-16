@@ -1,2 +1,3 @@
+#Firmware
 
-[Firmware](DOC/Firmware.md)
+[Firmware](Firmware/)
