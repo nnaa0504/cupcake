@@ -17,37 +17,37 @@
 
 enum layer_number {
     _DEFAULT = 0,
-    _LOWER = 1,
-    _RAISE = 2
+    _LOWER,
+    _RAISE
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  [_DEFAULT] = LAYOUT( LT(_LOWER, KC_A), LT(_RAISE, KC_B), KC_MUTE ),
+  [_DEFAULT] = LAYOUT( LGUI(KC_TAB), SGUI(KC_S), KC_MUTE ),
   [_LOWER] = LAYOUT( KC_TRNS, RGB_HUI, RGB_TOG ),
   [_RAISE] = LAYOUT( RGB_MOD, KC_TRNS, RGB_TOG ),
 };
 
 //Encoder
-  void encoder_update_user(uint8_t index, bool clockwise) {
-    if (IS_LAYER_OFF(_LOWER) && IS_LAYER_OFF(_RAISE)){
-      if (clockwise) {
-          tap_code(KC_VOLU);  //Rotary encoder clockcwise
-      } else {
-          tap_code(KC_VOLD);  //Rotary encoder Reverse clockcwise
-      }
-    }
-    else if (IS_LAYER_ON(_LOWER)){
-      if (clockwise) {
-          rgblight_increase_val();  //Rotary encoder clockcwise
-      } else {
-          rgblight_decrease_val();  //Rotary encoder Reverse clockcwise
-      }
-    }
-    else if (IS_LAYER_ON(_RAISE)){
-      if (clockwise) {
-          rgblight_increase_sat();  //Rotary encoder clockcwise
-      } else {
-          rgblight_decrease_sat();  //Rotary encoder Reverse clockcwise
-      }
+void encoder_update_user(uint8_t index, bool clockwise) {
+  if (IS_LAYER_OFF(_LOWER) && IS_LAYER_OFF(_RAISE)){
+    if (clockwise) {
+        tap_code(KC_VOLU);  //Rotary encoder clockcwise
+    } else {
+        tap_code(KC_VOLD);  //Rotary encoder Reverse clockcwise
     }
   }
+  else if (IS_LAYER_ON(_LOWER)){
+    if (clockwise) {
+        rgblight_increase_val();  //Rotary encoder clockcwise
+    } else {
+        rgblight_decrease_val();  //Rotary encoder Reverse clockcwise
+    }
+  }
+  else if (IS_LAYER_ON(_RAISE)){
+    if (clockwise) {
+        rgblight_increase_sat();  //Rotary encoder clockcwise
+    } else {
+        rgblight_decrease_sat();  //Rotary encoder Reverse clockcwise
+    }
+  }
+}
