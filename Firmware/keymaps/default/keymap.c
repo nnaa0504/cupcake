@@ -22,7 +22,7 @@ enum layer_number {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  [_DEFAULT] = LAYOUT( LGUI(KC_TAB), SGUI(KC_S), KC_MUTE ),
+  [_DEFAULT] = LAYOUT( LT(_LOWER, LGUI(KC_TAB)), LT(_RAISE, SGUI(KC_S)), KC_MUTE ),
   [_LOWER] = LAYOUT( KC_TRNS, RGB_HUI, RGB_TOG ),
   [_RAISE] = LAYOUT( RGB_MOD, KC_TRNS, RGB_TOG ),
 };
