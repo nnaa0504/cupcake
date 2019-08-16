@@ -1,4 +1,4 @@
 # cupcake
 
-[BuildGuide](/DOC/BuildGuide.md)  
-[Firmware](/DOC/Firmware.md)  
+[BuildGuide](/Doc/BuildGuide.md)  
+[Firmware](/Doc/Firmware.md)  
