@@ -45,7 +45,7 @@ LEDには方向があります。
 
 熱でLEDが壊れないように温調はんだごてを～270度の温度で使用します。
 
-[Imgur](https://imgur.com/VSGIq16)
+[Img](https://imgur.com/VSGIq16)
 
 
 ### リセットスイッチ
