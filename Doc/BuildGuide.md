@@ -114,5 +114,8 @@ PCBの表側からもう一つのキースイッチを差し込み、PCBの裏�
 
 チェーンとアクリルチャームの取り付けて完成です。
 
+![img](https://imgur.com/VYMFdaD.jpg) ![img](https://imgur.com/5rg21jV.jpg)
+
+
 
 
