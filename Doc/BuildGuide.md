@@ -76,8 +76,6 @@ PCBの裏側からはんだ付けします。
 
 ### Pro Micro
 
-![img](https://i.imgur.com/2cRbRct.jpg)
-
 Pro Microにピンを差し込み、はんだ付けをします。
 
 PCBの裏側からPro Microを差し込み、PCBの表面ぎりぎりでピンをカットします。
