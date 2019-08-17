@@ -49,3 +49,15 @@ void led_set_kb(uint8_t usb_led) {
 }
 
 */
+
+//promicro led off
+void matrix_init_kb(void) {
+
+   DDRD &= ~(1<<5);
+   PORTD &= ~(1<<5);
+
+   DDRB &= ~(1<<0);
+   PORTB &= ~(1<<0);
+
+   matrix_init_user();
+ };
