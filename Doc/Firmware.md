@@ -65,3 +65,13 @@ cupcake/keymaps/defaultを複製し、任意の名前を付けます。
     make cupcake:フォルダ名:avrdude
 
 （レイヤーの切り替えを無くせば[マクロ](https://docs.qmk.fm/#/feature_macros)なども使用できるようになります。）
+
+
+## RGBバックライトを使用しない場合
+
+cupcake/rules.mk 内の RGBLIGHT_ENABLE を yes から no に変更します。
+
+    LED_BACK_ENABLE = no
+
+
+
