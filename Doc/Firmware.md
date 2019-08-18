@@ -65,3 +65,8 @@ cupcake/keymaps/defaultを複製し、任意の名前を付けます。
 レイヤーの切り替えを無くせばマクロなども使用できるようになります。
 
 （キーコードは[QMKのリファレンス](https://docs.qmk.fm/#/keycodes)を参照）
+
+
+## RGBバックライトを使用しない場合
+
+RGBバックライトを使用しない場合、cupcake/rules.mk内のRGBLIGHT_ENABLEをyesからnoに変更します。
