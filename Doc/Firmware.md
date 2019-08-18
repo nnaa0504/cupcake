@@ -1,6 +1,6 @@
 # Firmware
 
-ファームウェアはQMKで作成しています。
+ファームウェアはQMKを使用して作成しています。
 
 [トップ](https://github.com/nnaa0504/cupcake) から複製のZIPファイルダウンロードを行います。
 
@@ -11,3 +11,5 @@
     make cupcake:default:avrdude
 
 で書き込みができます。
+
+QMKに関する詳しい内容は、[Helixのファームウェアガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/firmware_jp.md)が参考になります。
