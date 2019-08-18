@@ -10,4 +10,4 @@
 
     make cupcake:default:avrdude
 
-で書き込みをします。
+で書き込みができます。
