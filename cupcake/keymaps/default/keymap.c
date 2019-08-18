@@ -36,6 +36,8 @@ void encoder_update_user(uint8_t index, bool clockwise) {
         tap_code(KC_VOLD);  //Rotary encoder Reverse clockcwise
     }
   }
+
+  #ifdef RGBLIGHT_ENABLE
   else if (IS_LAYER_ON(_LOWER)){
     if (clockwise) {
         rgblight_increase_val();  //Rotary encoder clockcwise
@@ -50,4 +52,6 @@ void encoder_update_user(uint8_t index, bool clockwise) {
         rgblight_decrease_sat();  //Rotary encoder Reverse clockcwise
     }
   }
+  #endif
+  
 }
