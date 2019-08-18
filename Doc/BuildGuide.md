@@ -1,6 +1,6 @@
 # BuildGuide
 
-![img](https://imgur.com/04q5YGS.jpg) ![img](https://imgur.com/wQX5GPN.jpg)
+![img](https://imgur.com/04q5YGS.jpg) ![img](https://imgur.com/BCkjVL5.jpg)
 
 
 ## セット内容
