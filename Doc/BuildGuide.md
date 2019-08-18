@@ -41,6 +41,8 @@
 
 ### PCBの表裏
 
+![img](https://imgur.com/nGZDYZO.jpg)
+
 PCBはカップケーキのイラストがプリントされている方が表、反対側が裏になります。
 
 
@@ -59,6 +61,8 @@ LEDには方向があります。シルクの印がある位置にLEDの一番�
 
 ### リセットスイッチ
 
+![img](https://imgur.com/7eXdlU4.jpg) ![img](https://imgur.com/n1zHcq4.jpg)
+
 PCBの裏側からタクトスイッチを差し込みマスキングテープで固定後、PCBの表面ぎりぎりでピンをカットします。
 
 PCBの表側からはんだ付けします。
@@ -66,7 +70,11 @@ PCBの表側からはんだ付けします。
 
 ### ロータリーエンコーダ
 
+![img](https://imgur.com/ZqQzK9p.jpg) ![img](https://imgur.com/p0iPQ0r.jpg)
+
 ロータリーエンコーダの両端にひとつずつ付いている固定用の爪をニッパーでカットします。
+
+![img](https://imgur.com/EdUXiAz.jpg)
 
 PCBの表側からロータリーエンコーダを差し込みマスキングテープで固定後、PCBの裏面ぎりぎりでピンをカットします。
 
@@ -75,6 +83,8 @@ PCBの裏側からはんだ付けします。
 
 ### KEY2
 
+![img](https://imgur.com/iMhIKH3.jpg) ![img](https://imgur.com/4QwcRcH.jpg)
+
 PCBの表側からロータリーエンコーダ側のキースイッチを差し込み、PCBの裏面ぎりぎりでピンをカットします。
 
 PCBの裏側からはんだ付けします。
@@ -82,7 +92,11 @@ PCBの裏側からはんだ付けします。
 
 ### Pro Micro
 
+![img](https://imgur.com/t9ft6cs.jpg)
+
 Pro Microにピンを差し込み、はんだ付けをします。
+
+![img](https://imgur.com/t9ft6cs.jpg) ![img](https://imgur.com/ujtViKh.jpg)
 
 PCBの裏側からPro Microを差し込みマスキングテープで固定後、PCBの表面ぎりぎりでピンをカットします。
 
@@ -90,6 +104,8 @@ PCBの表側からはんだ付けします。
 
 
 ### KEY1
+
+![img](https://imgur.com/FNKmycX.jpg)
 
 PCBの表側からもう一つのキースイッチを差し込み、PCBの裏側からはんだ付けします。
 
@@ -100,6 +116,10 @@ PCBの表側からもう一つのキースイッチを差し込み、PCBの裏�
 
 
 ### アクリルプレート
+
+アクリルプレートの保護シートをはがします。
+
+![img](https://imgur.com/t8HcvyE.jpg)
 
 ねじとスペーサーでアクリルプレートを設置します。
 
@@ -116,5 +136,7 @@ PCBの表側からもう一つのキースイッチを差し込み、PCBの裏�
 
 
 ### チェーンとアクリルチャームの取り付け
+
+アクリルチャームの保護シートをはがします。
 
 チェーンとアクリルチャームの取り付けて完成です。
