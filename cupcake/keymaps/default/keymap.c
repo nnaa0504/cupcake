@@ -23,8 +23,8 @@ enum layer_number {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_DEFAULT] = LAYOUT( LT(_LOWER, KC_MUTE), LT(_RAISE, KC_PSCR), RGB_TOG ),
-  [_LOWER] = LAYOUT( KC_TRNS, RGB_HUI, _______ ),
-  [_RAISE] = LAYOUT( RGB_MOD, KC_TRNS, _______ ),
+  [_LOWER] = LAYOUT( _______, RGB_HUI, _______ ),
+  [_RAISE] = LAYOUT( RGB_MOD, _______, _______ ),
 };
 
 //Encoder
