@@ -58,10 +58,10 @@ cupcake/keymaps/defaultを複製し、任意の名前を付けます。
 
 フォルダ内のkeymap.cを編集することでキーマップの変更が可能です。
 
+（キーコードは[QMKのリファレンス](https://docs.qmk.fm/#/keycodes)を参照）
+
 その際書き込みのコマンドは次のようになります。
 
     make cupcake:フォルダ名:avrdude
 
-レイヤーの切り替えを無くせばマクロなども使用できるようになります。
-
-（キーコードは[QMKのリファレンス](https://docs.qmk.fm/#/keycodes)を参照）
+（レイヤーの切り替えを無くせば[マクロ](https://docs.qmk.fm/#/feature_macros)なども使用できるようになります。）
