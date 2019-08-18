@@ -23,3 +23,6 @@ QMKの書き込み関する詳しい内容は、[Helixのファームウェア�
 ![img](https://imgur.com/w4HKdTP.jpg)
 
 キーの配置は図のようになっています（KEY3はロータリーエンコーダ）。
+
+
+### default
