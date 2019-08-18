@@ -56,4 +56,6 @@ QMKの書き込み関する詳しい内容は、[Helixのファームウェア�
 
 cupcake/keymaps/default/keymap.cを編集することでキーマップの変更が可能です。
 
+レイヤーの切り替えを無くせばマクロなども使用できるようになります。
+
 （キーコードは[QMKのリファレンス](https://docs.qmk.fm/#/keycodes)を参照）
